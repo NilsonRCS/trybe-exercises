@@ -1,0 +1,58 @@
+ol li {
+    background-color: yellow;
+}
+ol li:nth-of-type(2n) {
+    color: green;
+}
+ .primos span:nth-child(2n+4 ,3n+6 ,4n+8) { text-transform: lowercase;
+     
+}
+
+
+li:not(:first-child):not(:nth-child(2n + 4)):not(:nth-child(3n + 6)):not(:nth-child(5n + 10)) {
+    text-transform: lowercase;
+}
+/* referencia de solução para a busca dos numeros primos eu precisei pegar na pergunta do colega
+ john pierre onde o outro colega Lucas Pedroso oferece essa linha*/
+
+ h1 {
+     color: red;
+     font-size: 40px;
+     border: 1px solid black;
+ }
+
+.todasli {
+    font-size: 20px;
+}
+.todasliitalico {
+    font-weight: 700;
+}
+.programacao :nth-child(-n+3) {
+color: blue;
+    
+}
+[class*="java"] {
+    background-color: pink;
+}
+/* referencia da solução de busca java ao colega Mauricio viegas que respondeu a pergunta do outro colega via slack*/
+
+.aliados1 :hover {
+    font-weight: 700;
+     background-color: orange;
+}
+.aliados2 :hover {
+    font-weight: 700;
+     background-color: green
+}
+.aliados3 :hover {
+    font-weight: 700;
+     background-color: black
+}
+.aliados4 :hover {
+    font-weight: 700;
+     background-color:yellow
+    }
+    .aliados5 :hover {
+        font-weight: 700;
+         background-color: green
+    }
