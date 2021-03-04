@@ -21,4 +21,10 @@ function changeText() {
     title.innerHTML = "Exercício 5.1 - JavaScript";
   }
   correctTitle();
+
+  function paragraphUpperCase() {
+    let paragraph = document.getElementsByTagName('p')[0];
+    paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+  }
+  paragraphUpperCase();
   
