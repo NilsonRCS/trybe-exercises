@@ -9,3 +9,9 @@ function changeText() {
     squareYellow.style.background = "green";
   }
   changeSquareToGreen();
+
+  function changeSquareToWhite() {
+    let squareRed = document.getElementsByClassName('center-content')[0];
+    squareRed.style.background = "white";
+  }
+  changeSquareToWhite();
