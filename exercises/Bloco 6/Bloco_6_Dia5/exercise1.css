@@ -1,0 +1,23 @@
+body {
+    font-size: large;
+}
+h1 {
+    font-size: small;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 30px;
+    background: black;
+    padding: 10px;
+}
+
+@media screen and (min-width: 794px){
+    background; black;
+}

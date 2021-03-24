@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario 1</h1>
+    </header>
+    <form action="">
+    <fieldset>
+        <input type="text" placeholder="Digite seu nome" required maxlength="40" >Nome: <br><br>
+        
+        <input type="email" placeholder="digite seu email" required maxlength="50">Email: <br><br>
+        
+        <input type="number" name="CPF" id="input-cpf" placeholder="Digite Seu CPF" 
+        maxlength="11" required >CPF <br><br>
+        
+        <input type="text" name="endereço" id="endereço" placeholder="Digite Seu endereço" required maxlength="200">Endereço: <br><br>
+
+        <input type="text" name="cidade" id="cidade" placeholder="Digite sua Cidade" required maxlength="28">Cidade: <br><br>
+
+        <label for="estado">
+        <select name="estado" id="estado" value = '' required  ></option></select><br><br>
+        </label>
+        
+        <label for="apartamento">
+        <input type="radio" name="casa" id="apartamento"> Apartamento: <br>
+        </label>
+
+        <label for="casa">
+        <input type="radio" name="casa" id="casa"> Casa:
+        </label>
+        
+    </fieldset>
+    <fieldset>
+        <textarea name="Currículo" id="curriculo" cols="80" rows="25" required maxlength="1000"></textarea>Currículo: <br> <br>
+
+        <input type="text" maxlength="40" placeholder="Cargo" required >Cargo: <br><br>
+
+        <input type="text" maxlength="500" required >Descrição do cargo: <br> <br>
+
+        <input type="date" name="data" id="data" required >Data de inicio: <br><br>
+
+
+    </fieldset>
+</form>
+</body>
+</html>

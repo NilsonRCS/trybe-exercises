@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+        <label for="nome-completo">Nome Completo:
+            <input type="text" name="nome" id="nome-completo" placeholder="Digite Seu Nome" required>
+        </label>
+        <br>
+        <label for="email">EMAIL:
+            <input type="email" name="email" id="e-mail" placeholder="Digite Seu e-mail" required>
+        </label>
+        <br>
+        <label for="">Estado onde você mora:
+            <select name="estado" id="input-estado">
+                <option value="sp">São paulo</option>
+                <option value="mg" selected >Minas Gerais</option>
+                <option value="ap">Amapá</option>
+                <option value="rs">Rio Grande do sul</option>
+            </select>
+        </label>
+        <br>
+        <p>Comida Favorita</p>
+        <label for="comida1">
+        <input type="radio" id="comida1" name="comida-favorita" value="pizza">Pizza
+        </label>
+
+        <label for="comida2">
+            <input type="radio" id="comida2" name="comida-favorita" value="lasanha">Lasanha
+        </label>
+
+        <label for="comida3">
+        <input type="radio" id="comida3" name="comida-favorita" value="chocolate">Chocolate
+        </label>
+    </form>
+</body>
+</html>
