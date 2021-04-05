@@ -65,7 +65,10 @@ const books = [
 
 function smallerName() {
   let nameBook;
-  // escreva aqui o seu código
+  
+  books.forEach((param1) => param1{
+      if()
+  })
 
   // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
